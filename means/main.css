@@ -1,0 +1,69 @@
+/* Section */
+
+.section {
+    margin: 30px;
+    padding: 5px 10%;
+}
+
+.section .textoMarca {
+    text-align: center;
+    font-size: 35pt;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.section .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section .cards .cards-item {
+    display: flex;
+    padding: .75rem;
+}
+
+.section .cards .cards-item .card img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border-radius: 25px;
+}
+
+.section .cards .cards-item .card .descrip {
+    padding: 9px 5px;
+    margin: 5px 0;
+    font-size: 15pt;
+
+}
+
+.section .cards .cards-item .card .price {
+    background-color: #263238;
+    color: #fafafa;
+    max-width: fit-content;
+    border-radius: 10rem;
+    padding: 5px 13px;
+    margin: 0px 0;
+}
+
+@media (min-width: 40rem) {
+    .cards-item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards-item {
+        width: 33.3333%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    /* Section */
+    .section {
+        padding: 5px 1%;
+    }
+}

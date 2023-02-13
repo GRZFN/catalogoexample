@@ -1,0 +1,108 @@
+/* Fondo de la Pagina */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #263238;
+
+}
+
+body {
+    background-color: #fafafa;
+}
+
+/* Cabezera */
+
+.header {
+    background-color: #ECEFF1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 5px 10%;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+/* Titulo de pagina */
+
+.header .title .iconTitle {
+    width: 35px;
+    margin: 0 0 -5px 0;
+}
+
+.header .title .textTitle {
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+/* Siguientes paginas */
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    background-color: #CFD8DC;
+    border-radius: 100rem;
+    padding: 10px 5px;
+    margin: 10px;
+}
+
+.header .nav-links a {
+    padding: 15px 20px;
+}
+
+/* Icono y texto siguiente */
+
+.header .nav-links .iconNext {
+    width: 25px;
+    margin: 0px 0px -6px 0px;
+}
+
+.header .nav-links .textNext {
+    font-size: large;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .header {
+        padding: 5px 5%;
+    }
+
+    .header .title .textTitle {
+        font-size: x-large;
+    }
+
+    .header .title .iconTitle {
+        width: 25px;
+        margin: 0 0 -5px 0;
+    }
+
+    .header .nav-links li {
+        padding: 0 auto;
+        margin: 7px;
+    }
+
+    .header .nav-links a {
+        padding: 18px 7px 10px 10px;
+    }
+
+    .header .nav-links .iconNext {
+        width: 21px;
+        margin: 0 auto;
+        margin: 2px -2px 0px 0;
+    }
+
+    .header .nav-links .textNext {
+        padding: 0;
+        font-size: 0;
+    }
+}
